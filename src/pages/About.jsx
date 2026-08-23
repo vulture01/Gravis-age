@@ -76,11 +76,11 @@ export default function About() {
               <Reveal
                 key={value.title}
                 delay={i * 100}
-                className="rounded-xl2 border border-line bg-white p-7 shadow-soft"
+                className="rounded-xl2 border border-line bg-navy-800 p-7 shadow-soft"
               >
                 <DiamondMark className="h-5 w-5" color="#B6FF00" />
-                <h3 className="mt-4 text-lg font-semibold text-ink-900">{value.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink-600">
+                <h3 className="mt-4 text-lg font-semibold text-white">{value.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-400">
                   {value.description}
                 </p>
               </Reveal>
@@ -95,7 +95,7 @@ export default function About() {
             <h2 className="text-3xl font-bold sm:text-4xl">The people behind Gravis</h2>
           </Reveal>
           <Reveal delay={90}>
-            <p className="mx-auto mt-4 max-w-lg text-ink-600">
+            <p className="mx-auto mt-4 max-w-lg text-gray-400">
               Three people, three areas of focus, one growth plan for every client.
             </p>
           </Reveal>

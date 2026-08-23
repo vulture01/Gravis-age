@@ -27,13 +27,13 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={80}>
-            <h1 className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight text-ink-900 sm:text-6xl md:text-7xl">
+            <h1 className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl">
               Grow your <span className="text-lime-500">brand.</span>
             </h1>
           </Reveal>
 
           <Reveal delay={160}>
-            <p className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-ink-600">
+            <p className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-gray-300">
               {agency.positioning}
             </p>
           </Reveal>

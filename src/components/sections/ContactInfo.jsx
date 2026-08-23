@@ -32,7 +32,7 @@ export default function ContactInfo() {
           href={href(contact)}
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex items-center justify-between rounded-xl2 border border-line bg-white p-6 shadow-soft transition-all duration-300 ease-premium hover:-translate-y-0.5 hover:border-lime-200 hover:shadow-card-hover"
+          className="group flex items-center justify-between rounded-xl2 border border-line bg-navy-800800 p-6 shadow-soft transition-all duration-300 ease-premium hover:-translate-y-0.5 hover:border-lime-200 hover:shadow-card-hover"
         >
           <span className="flex items-center gap-4">
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-lime-50 text-lime-700 transition-colors duration-300 group-hover:bg-lime-500 group-hover:text-white">
@@ -42,7 +42,7 @@ export default function ContactInfo() {
               <span className="block text-xs font-semibold uppercase tracking-[0.12em] text-ink-400">
                 {label}
               </span>
-              <span className="block text-[15px] font-medium text-ink-900">
+              <span className="block text-[15px] font-medium text-white">
                 {value(contact)}
               </span>
             </span>

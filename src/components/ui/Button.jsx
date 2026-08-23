@@ -2,13 +2,22 @@ import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 
 const variants = {
+  // Main Gravis CTA
+  // Dark text on lime gives much better contrast.
   primary:
-    "bg-lime-500 text-white shadow-glow hover:bg-lime-700 hover:-translate-y-0.5",
+    "bg-lime-500 text-navy-900 shadow-glow hover:bg-lime-400 hover:-translate-y-0.5",
+
+  // Dark button
   dark:
-    "bg-navy-900 text-white hover:bg-navy-800 hover:-translate-y-0.5",
+    "bg-navy-800 text-white border border-line hover:bg-navy-700 hover:-translate-y-0.5",
+
+  // Outline button
   outline:
-    "bg-transparent text-ink-900 border border-ink-900/15 hover:border-lime-500 hover:text-lime-700",
-  ghost: "bg-transparent text-white/90 hover:text-white",
+    "bg-transparent text-white border border-white/20 hover:border-lime-500 hover:text-lime-500",
+
+  // Minimal button
+  ghost:
+    "bg-transparent text-gray-300 hover:text-white",
 };
 
 const sizes = {
@@ -17,8 +26,12 @@ const sizes = {
 };
 
 /**
- * Shared CTA button. Renders a <Link> for internal routes (`to`), a plain
- * <a> for external URLs (`href`), or a <button> when neither is given.
+ * Shared CTA button.
+ *
+ * Renders:
+ * - <Link> for internal routes (`to`)
+ * - <a> for external URLs (`href`)
+ * - <button> when neither is provided
  */
 export default function Button({
   children,
@@ -37,6 +50,7 @@ export default function Button({
   const content = (
     <>
       <span>{children}</span>
+
       {icon && (
         <ArrowUpRight
           className="h-4 w-4 transition-transform duration-300 ease-premium group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
@@ -69,7 +83,12 @@ export default function Button({
   }
 
   return (
-    <button type={type} onClick={onClick} className={base} {...rest}>
+    <button
+      type={type}
+      onClick={onClick}
+      className={base}
+      {...rest}
+    >
       {content}
     </button>
   );

@@ -41,7 +41,7 @@ export default function Navbar() {
 
   const linkClass = ({ isActive }) =>
     `relative text-sm font-medium transition-colors duration-200 ${
-      isActive ? "text-ink-900" : "text-ink-600 hover:text-ink-900"
+      isActive ? "text-white" : "text-gray-300 hover:text-white"
     } after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-lime-500 after:transition-all after:duration-300 after:ease-premium ${
       isActive ? "after:w-full" : "after:w-0 hover:after:w-full"
     }`;
@@ -50,8 +50,8 @@ export default function Navbar() {
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ease-premium ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-soft"
-          : "bg-white/0"
+          ? "bg-navy-800/90 backdrop-blur-md shadow-soft"
+          : "bg-navy-800/0"
       }`}
     >
       <a
@@ -62,7 +62,7 @@ export default function Navbar() {
       </a>
 
       <Container className="flex h-20 items-center justify-between">
-        <Logo className="h-7 w-auto sm:h-8" />
+        <Logo className="h-9 w-auto sm:h-10" />
 
         <nav className="hidden items-center gap-9 lg:flex" aria-label="Primary">
           {navLinks.map((link) => (
@@ -85,7 +85,7 @@ export default function Navbar() {
           aria-expanded={open}
           aria-controls="mobile-menu"
           aria-label={open ? "Close menu" : "Open menu"}
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-ink-900/10 text-ink-900 lg:hidden"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-white lg:hidden"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
@@ -94,7 +94,7 @@ export default function Navbar() {
       {/* Mobile menu — full-screen takeover so nothing behind it shows through */}
       <div
         id="mobile-menu"
-        className={`fixed inset-x-0 top-20 bottom-0 z-40 flex flex-col overflow-y-auto border-t border-line bg-white lg:hidden transition-all duration-300 ease-premium ${
+        className={`fixed inset-x-0 top-20 bottom-0 z-40 flex flex-col overflow-y-auto border-t border-line bg-navy-800 lg:hidden transition-all duration-300 ease-premium ${
           open
             ? "pointer-events-auto translate-y-0 opacity-100"
             : "pointer-events-none -translate-y-2 opacity-0"
@@ -110,7 +110,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
                 `rounded-xl px-4 py-4 text-lg font-medium transition-colors ${
-                  isActive ? "bg-lime-50 text-lime-700" : "text-ink-700 hover:bg-mist"
+                  isActive ? "bg-lime-500/10 text-lime-500" : "text-gray-300 hover:bg-navy-700"
                 }`
               }
             >

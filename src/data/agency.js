@@ -40,15 +40,15 @@ export const process = [
 
 // TODO: replace these placeholders with Gravis's real contact details.
 export const contact = {
-  email: "hello@gravisagency.com",
+  email: "gravisagency@gmail.com",
   whatsapp: {
-    displayNumber: "+91 00000 00000",
+    displayNumber: "+91 98407 16615",
     // Digits only, with country code, no symbols — used to build the wa.me link.
-    number: "910000000000",
+    number: "919840716615",
   },
   instagram: {
-    handle: "@gravis.agency",
-    url: "https://instagram.com/gravis.agency",
+    handle: "@gravisads",
+    url: "https://www.instagram.com/gravisads?igsi=NWF0Z2UyeHV0bm13",
   },
 };
 

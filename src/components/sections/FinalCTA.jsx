@@ -9,7 +9,7 @@ export default function FinalCTA() {
       <div className="absolute inset-0 bg-gradient-to-br from-lime-500 to-lime-700" aria-hidden="true" />
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -left-16 -top-16 h-72 w-72 rounded-full bg-white/10 blur-3xl"
+        className="pointer-events-none absolute -left-16 -top-16 h-72 w-72 rounded-full bg-navy-800/10 blur-3xl"
       />
       <div
         aria-hidden="true"

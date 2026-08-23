@@ -11,7 +11,7 @@ export default function Layout() {
   }, [pathname]);
 
   return (
-    <div className="flex min-h-screen flex-col bg-paper">
+    <div className="flex min-h-screen flex-col bg-navy-900">
       <Navbar />
       <main id="main-content" className="flex-1">
         <Outlet />

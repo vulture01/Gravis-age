@@ -42,9 +42,9 @@ export default function Work() {
                 <div className="relative mx-auto max-w-3xl overflow-hidden rounded-xl2 border border-line bg-mist p-10 text-center sm:p-16">
                   <div
                     aria-hidden="true"
-                    className="pointer-events-none absolute -left-10 -top-10 h-40 w-40 rounded-full bg-lime-500/10 blur-3xl"
+                    className="pointer-events-none absolute -left-10 -top-10 h-40 w-40 rounded-full bg-blue-500/10 blur-3xl"
                   />
-                  <DiamondMark className="mx-auto h-9 w-9" color="#B6FF00" />
+                  <DiamondMark className="mx-auto h-9 w-9" color="#2E5BFF" />
                   <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-700">
                     No case studies here yet — and we'd rather show you nothing than
                     something invented. As soon as a project is live, it'll be featured
@@ -64,13 +64,13 @@ export default function Work() {
                     <Reveal
                       key={area.title}
                       delay={i * 100}
-                      className="rounded-xl2 border border-line bg-white p-7 shadow-soft"
+                      className="rounded-xl2 border border-line bg-navy-800 p-7 shadow-soft"
                     >
-                      <DiamondMark className="h-5 w-5" color="#B6FF00" />
-                      <h3 className="mt-4 text-lg font-semibold text-ink-900">
+                      <DiamondMark className="h-5 w-5" color="#2E5BFF" />
+                      <h3 className="mt-4 text-lg font-semibold text-white">
                         {area.title}
                       </h3>
-                      <p className="mt-2 text-sm leading-relaxed text-ink-600">
+                      <p className="mt-2 text-sm leading-relaxed text-gray-400">
                         {area.description}
                       </p>
                     </Reveal>

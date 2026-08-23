@@ -7,13 +7,13 @@ import DiamondMark from "../ui/DiamondMark";
  */
 export default function ServiceCard({ service, detailed = false }) {
   return (
-    <div className="group relative rounded-xl2 border border-line bg-white p-8 shadow-soft transition-all duration-300 ease-premium hover:-translate-y-1 hover:shadow-card-hover hover:border-lime-200">
+    <div className="group relative rounded-xl2 border border-line bg-navy-800 p-8 shadow-soft transition-all duration-300 ease-premium hover:-translate-y-1 hover:shadow-card-hover hover:border-lime-200">
       <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-lime-50 text-lime-700 transition-colors duration-300 group-hover:bg-lime-500 group-hover:text-white">
         <Icon name={service.icon} className="h-5 w-5" />
       </div>
 
-      <h3 className="mt-6 text-xl font-semibold text-ink-900">{service.name}</h3>
-      <p className="mt-3 text-[15px] leading-relaxed text-ink-600">
+      <h3 className="mt-6 text-xl font-semibold text-white">{service.name}</h3>
+      <p className="mt-3 text-[15px] leading-relaxed text-gray-400">
         {detailed ? service.description : service.short}
       </p>
 

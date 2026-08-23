@@ -11,7 +11,7 @@ export default function NotFound() {
         <Container className="text-center">
           <DiamondMark className="mx-auto h-9 w-9" color="#B6FF00" />
           <h1 className="mt-6 text-4xl font-bold sm:text-5xl">Page not found</h1>
-          <p className="mx-auto mt-4 max-w-md text-ink-600">
+          <p className="mx-auto mt-4 max-w-md text-gray-400">
             The page you're looking for doesn't exist, or has moved.
           </p>
           <div className="mt-8 flex justify-center">

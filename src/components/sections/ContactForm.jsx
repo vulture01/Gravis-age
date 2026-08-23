@@ -13,7 +13,7 @@ const initialForm = {
 };
 
 const fieldClass =
-  "w-full rounded-xl border border-line bg-white px-4 py-3 text-[15px] text-ink-900 placeholder:text-ink-400 transition-colors duration-200 focus:border-lime-500 focus:outline-none";
+  "w-full rounded-xl border border-line bg-navy-800 px-4 py-3 text-[15px] text-white placeholder:text-ink-400 transition-colors duration-200 focus:border-lime-500 focus:outline-none";
 
 /**
  * V1 has no backend or database. On submit, this builds a pre-filled
@@ -66,8 +66,8 @@ export default function ContactForm() {
     return (
       <div className="rounded-xl2 border border-line bg-mist p-10 text-center">
         <CheckCircle2 className="mx-auto h-10 w-10 text-lime-500" aria-hidden="true" />
-        <h3 className="mt-5 text-xl font-semibold text-ink-900">Almost there</h3>
-        <p className="mx-auto mt-3 max-w-sm text-[15px] leading-relaxed text-ink-600">
+        <h3 className="mt-5 text-xl font-semibold text-white">Almost there</h3>
+        <p className="mx-auto mt-3 max-w-sm text-[15px] leading-relaxed text-gray-400">
           Your email app should now be open with your message ready to send. If it didn't
           open, email us directly at{" "}
           <a href={`mailto:${contact.email}`} className="font-medium text-lime-700 underline">
@@ -160,7 +160,7 @@ export default function ContactForm() {
             value={form.phone}
             onChange={update("phone")}
             className={fieldClass}
-            placeholder="+91 00000 00000"
+            placeholder="+91 98407 16615"
           />
         </div>
       </div>
@@ -173,7 +173,7 @@ export default function ContactForm() {
           id="service"
           value={form.service}
           onChange={update("service")}
-          className={`${fieldClass} appearance-none bg-white`}
+          className={`${fieldClass} appearance-none bg-navy-800`}
         >
           {contactServiceOptions.map((option) => (
             <option key={option} value={option}>

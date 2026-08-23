@@ -20,7 +20,7 @@ export default function PageHeader({ eyebrow, title, subtitle }) {
         </Reveal>
         {subtitle && (
           <Reveal delay={150}>
-            <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-ink-600">
+            <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-gray-400">
               {subtitle}
             </p>
           </Reveal>
