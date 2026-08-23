@@ -26,13 +26,13 @@
 
   /* Visible keyboard focus everywhere — accessibility floor */
   :focus-visible {
-    outline: 2px solid #2e5bff;
+    outline: 2px solid #B6FF00;
     outline-offset: 3px;
     border-radius: 4px;
   }
 
   ::selection {
-    background: #2e5bff;
+    background: #B6FF00;
     color: #ffffff;
   }
 }

@@ -32,10 +32,11 @@ export default {
         mist: "#F6F7FC",
         line: "#E7E9F0",
       },
-      fontFamily: {
-        display: ["'Clash Display'", "'Satoshi'", "system-ui", "sans-serif"],
-        body: ["'Satoshi'", "system-ui", "-apple-system", "sans-serif"],
-      },
+fontFamily: {
+  display: ["Sora", "system-ui", "sans-serif"],
+  body: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+  feature: ["Space Grotesk", "system-ui", "sans-serif"],
+},
       maxWidth: {
         content: "1280px",
       },
