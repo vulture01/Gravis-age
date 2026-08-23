@@ -4,23 +4,23 @@
 
 @layer base {
   :root {
-    color-scheme: light;
+    color-scheme: dark;
   }
 
   html {
     scroll-behavior: smooth;
   }
 
-  body {
-    @apply bg-paper text-ink-900 font-body antialiased;
-    font-feature-settings: "ss01" 1, "cv01" 1;
-  }
+body {
+  @apply bg-navy-900 text-white font-body antialiased;
+  font-feature-settings: "ss01" 1, "cv01" 1;
+}
 
   h1,
   h2,
   h3,
   h4 {
-    @apply font-display text-ink-900;
+    @apply font-display text-white;
     letter-spacing: -0.02em;
   }
 
@@ -32,9 +32,9 @@
   }
 
   ::selection {
-    background: #B6FF00;
-    color: #ffffff;
-  }
+  background: #B6FF00;
+  color: #000000;
+}
 }
 
 @layer components {
@@ -43,7 +43,7 @@
   }
 
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-lime-700;
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-lime-500;
   }
 
   .hairline {
