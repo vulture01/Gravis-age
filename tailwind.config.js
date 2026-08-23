@@ -3,21 +3,29 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
-      colors: {
+      
+      lime: {
+  50: "#F4FFD6",
+  100: "#E8FFAD",
+  200: "#D4FF66",
+  400: "#C4FF33",
+  500: "#B6FF00",
+  600: "#8FCA00",
+  700: "#5F8500",
+},
         // Deep navy — dark bands, footer, ink-on-dark
-        navy: {
-          950: "#060A1F",
-          900: "#0B1233",
-          800: "#141B47",
-          700: "#1D2761",
-        },
+navy: {
+  800: "#0A0A0A",
+  700: "#151515",
+  900: "#000000",
+}
         // Electric blue — the energetic accent
         blue: {
           50: "#F5F8FF",
           100: "#E8EEFF",
           200: "#C9D7FF",
           400: "#5B7FFF",
-          500: "#2E5BFF",
+          500: "#B6FF00",
           600: "#2148E6",
           700: "#1937B3",
         },
@@ -29,8 +37,8 @@ export default {
           400: "#8A8D95",
         },
         paper: "#FFFFFF",
-        mist: "#F6F7FC",
-        line: "#E7E9F0",
+        mist: "#0A0A0A",
+        line: "#222222",
       },
 fontFamily: {
   display: ["Sora", "system-ui", "sans-serif"],

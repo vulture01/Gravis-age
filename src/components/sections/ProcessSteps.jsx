@@ -25,8 +25,8 @@ export default function ProcessSteps() {
           <ol className="relative grid grid-cols-5 gap-6">
             {process.map((item, i) => (
               <Reveal as="li" key={item.step} delay={i * 110} className="text-left">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-blue-200 bg-white text-blue-600 shadow-soft">
-                  <DiamondMark className="h-4 w-4" color="#2E5BFF" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-lime-200 bg-white text-lime-700 shadow-soft">
+                  <DiamondMark className="h-4 w-4" color="#B6FF00" />
                 </div>
                 <span className="mt-5 block text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                   0{i + 1}
@@ -43,8 +43,8 @@ export default function ProcessSteps() {
           <div className="absolute left-6 top-2 bottom-2 w-px bg-line" aria-hidden="true" />
           {process.map((item, i) => (
             <Reveal as="li" key={item.step} delay={i * 90} className="relative flex gap-5 pl-0">
-              <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-blue-200 bg-white text-blue-600 shadow-soft">
-                <DiamondMark className="h-4 w-4" color="#2E5BFF" />
+              <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-lime-200 bg-white text-lime-700 shadow-soft">
+                <DiamondMark className="h-4 w-4" color="#B6FF00" />
               </div>
               <div>
                 <span className="block text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">

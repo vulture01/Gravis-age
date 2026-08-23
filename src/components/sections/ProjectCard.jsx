@@ -17,7 +17,7 @@ export default function ProjectCard({ project }) {
         </div>
       )}
       <div className="p-6">
-        <span className="text-xs font-semibold uppercase tracking-[0.14em] text-blue-600">
+        <span className="text-xs font-semibold uppercase tracking-[0.14em] text-lime-700">
           {project.category}
         </span>
         <h3 className="mt-2 text-lg font-semibold text-ink-900">{project.client}</h3>
@@ -27,7 +27,7 @@ export default function ProjectCard({ project }) {
             {project.tags.map((tag) => (
               <li
                 key={tag}
-                className="rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700"
+                className="rounded-full bg-lime-50 px-3 py-1 text-xs font-medium text-lime-700"
               >
                 {tag}
               </li>

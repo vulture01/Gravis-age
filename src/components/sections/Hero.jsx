@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Soft electric-blue glow — light & premium, not dark/futuristic */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute left-1/2 top-[-10%] h-[560px] w-[860px] -translate-x-1/2 rounded-full bg-blue-500/15 blur-[120px]"
+        className="pointer-events-none absolute left-1/2 top-[-10%] h-[560px] w-[860px] -translate-x-1/2 rounded-full bg-lime-500/15 blur-[120px]"
       />
       <div
         aria-hidden="true"
@@ -28,7 +28,7 @@ export default function Hero() {
 
           <Reveal delay={80}>
             <h1 className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight text-ink-900 sm:text-6xl md:text-7xl">
-              Grow your <span className="text-blue-500">brand.</span>
+              Grow your <span className="text-lime-500">brand.</span>
             </h1>
           </Reveal>
 

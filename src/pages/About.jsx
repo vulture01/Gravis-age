@@ -78,7 +78,7 @@ export default function About() {
                 delay={i * 100}
                 className="rounded-xl2 border border-line bg-white p-7 shadow-soft"
               >
-                <DiamondMark className="h-5 w-5" color="#2E5BFF" />
+                <DiamondMark className="h-5 w-5" color="#B6FF00" />
                 <h3 className="mt-4 text-lg font-semibold text-ink-900">{value.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-600">
                   {value.description}

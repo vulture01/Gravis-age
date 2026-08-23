@@ -13,7 +13,7 @@ const initialForm = {
 };
 
 const fieldClass =
-  "w-full rounded-xl border border-line bg-white px-4 py-3 text-[15px] text-ink-900 placeholder:text-ink-400 transition-colors duration-200 focus:border-blue-500 focus:outline-none";
+  "w-full rounded-xl border border-line bg-white px-4 py-3 text-[15px] text-ink-900 placeholder:text-ink-400 transition-colors duration-200 focus:border-lime-500 focus:outline-none";
 
 /**
  * V1 has no backend or database. On submit, this builds a pre-filled
@@ -65,12 +65,12 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="rounded-xl2 border border-line bg-mist p-10 text-center">
-        <CheckCircle2 className="mx-auto h-10 w-10 text-blue-500" aria-hidden="true" />
+        <CheckCircle2 className="mx-auto h-10 w-10 text-lime-500" aria-hidden="true" />
         <h3 className="mt-5 text-xl font-semibold text-ink-900">Almost there</h3>
         <p className="mx-auto mt-3 max-w-sm text-[15px] leading-relaxed text-ink-600">
           Your email app should now be open with your message ready to send. If it didn't
           open, email us directly at{" "}
-          <a href={`mailto:${contact.email}`} className="font-medium text-blue-600 underline">
+          <a href={`mailto:${contact.email}`} className="font-medium text-lime-700 underline">
             {contact.email}
           </a>
           .
@@ -81,7 +81,7 @@ export default function ContactForm() {
             setForm(initialForm);
             setSubmitted(false);
           }}
-          className="mt-6 text-sm font-semibold text-blue-600 hover:text-blue-700"
+          className="mt-6 text-sm font-semibold text-lime-700 hover:text-lime-700"
         >
           Send another message
         </button>
@@ -94,7 +94,7 @@ export default function ContactForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
           <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-ink-700">
-            Name <span className="text-blue-500">*</span>
+            Name <span className="text-lime-500">*</span>
           </label>
           <input
             id="name"
@@ -131,7 +131,7 @@ export default function ContactForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
           <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-ink-700">
-            Email <span className="text-blue-500">*</span>
+            Email <span className="text-lime-500">*</span>
           </label>
           <input
             id="email"
@@ -185,7 +185,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-ink-700">
-          Message <span className="text-blue-500">*</span>
+          Message <span className="text-lime-500">*</span>
         </label>
         <textarea
           id="message"

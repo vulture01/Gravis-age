@@ -6,7 +6,7 @@ import Reveal from "../ui/Reveal";
 export default function FinalCTA() {
   return (
     <section className="relative overflow-hidden py-24 sm:py-28">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-to-br from-lime-500 to-lime-700" aria-hidden="true" />
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -left-16 -top-16 h-72 w-72 rounded-full bg-white/10 blur-3xl"

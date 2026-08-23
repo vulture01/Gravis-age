@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="eyebrow text-blue-200">
+            <h3 className="eyebrow text-lime-200">
               <DiamondMark className="h-3 w-3" color="#5B7FFF" />
               Navigate
             </h3>
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="eyebrow text-blue-200">
+            <h3 className="eyebrow text-lime-200">
               <DiamondMark className="h-3 w-3" color="#5B7FFF" />
               Get in touch
             </h3>

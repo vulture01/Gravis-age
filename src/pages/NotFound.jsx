@@ -9,7 +9,7 @@ export default function NotFound() {
       <Seo title="Page not found" description="This page doesn't exist." />
       <section className="flex min-h-[60vh] items-center py-24">
         <Container className="text-center">
-          <DiamondMark className="mx-auto h-9 w-9" color="#2E5BFF" />
+          <DiamondMark className="mx-auto h-9 w-9" color="#B6FF00" />
           <h1 className="mt-6 text-4xl font-bold sm:text-5xl">Page not found</h1>
           <p className="mx-auto mt-4 max-w-md text-ink-600">
             The page you're looking for doesn't exist, or has moved.

@@ -42,7 +42,7 @@ export default function Navbar() {
   const linkClass = ({ isActive }) =>
     `relative text-sm font-medium transition-colors duration-200 ${
       isActive ? "text-ink-900" : "text-ink-600 hover:text-ink-900"
-    } after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 after:ease-premium ${
+    } after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-lime-500 after:transition-all after:duration-300 after:ease-premium ${
       isActive ? "after:w-full" : "after:w-0 hover:after:w-full"
     }`;
 
@@ -110,7 +110,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
                 `rounded-xl px-4 py-4 text-lg font-medium transition-colors ${
-                  isActive ? "bg-blue-50 text-blue-600" : "text-ink-700 hover:bg-mist"
+                  isActive ? "bg-lime-50 text-lime-700" : "text-ink-700 hover:bg-mist"
                 }`
               }
             >
