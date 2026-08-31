@@ -5,7 +5,7 @@ export const agency = {
   name: "Gravis Agency",
   tagline: "Grow your brand.",
   positioning:
-    "We help businesses build a stronger digital presence, reach the right audience, and grow through strategic digital marketing.",
+    "We help ambitious businesses turn their digital presence into measurable growth — reaching the right audience, building stronger brands, and converting attention into customers.",
   philosophy: "Strategy first. Creativity second. Results always.",
 };
 
