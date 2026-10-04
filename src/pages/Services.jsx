@@ -5,6 +5,7 @@ import ServiceCard from "../components/sections/ServiceCard";
 import Reveal from "../components/ui/Reveal";
 import Philosophy from "../components/sections/Philosophy";
 import FinalCTA from "../components/sections/FinalCTA";
+import GrowthPackages from "../components/sections/GrowthPackages";
 import { services } from "../data/services";
 
 export default function Services() {
@@ -32,6 +33,7 @@ export default function Services() {
         </Container>
       </section>
 
+      <GrowthPackages />
       <Philosophy />
       <FinalCTA />
     </>
